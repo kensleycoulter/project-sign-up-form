@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>project sign-up form</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="image-sidebar">
+        <img src="./imgs/to-use1.avif">
+         <img src="./imgs/ravenlogo.png" class="ravenlogo">
+          <h2 class="dream-thieves">dream thieves</h2>
+    </div>
+
+
+
+<div class="content">
+    <div class="content-info">
+       <p>This is not a real online service! Or is it? You know you need something like
+        this in your life to realize all of your deepest dreams.
+        Sign up <em>now</em> to get started.</p>
+
+        <p>You know you <em>want</em> to.</p>
+
+    </div>
+
+  <div class="form-wrapper">
+    <form action="https://httpbin.org/post" method="post">
+        <div class="form-header">Let's begin...</div>
+        <div class="form">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="first_name" required/>
+
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name" required/>
+
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" required/>
+
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="tel" id="phone_number"  name="phone_number" minlength="9" maxlength="9"/>
+
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required/>
+
+            <label for="password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm_password" name="password" required/>
+        </div>
+
+        <div class="submit">
+            <button type="submit">Create Account</button>
+
+        </div>
+    </form>
+  </div>
+    <div class="login">
+        <p>Already have an account? <a href="../project-sign-up-form/index.html">Log in</a></p>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
